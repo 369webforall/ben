@@ -28,7 +28,7 @@ const Slider = ({ users }) => {
             key={index}
           >
             {index === current && (
-              <div>
+              <div className='card'>
                 <img src={slide.imageUrl} alt="slider" className="image" />
                 <h1>{slide.title}</h1>
                 <p>{slide.description}</p>
